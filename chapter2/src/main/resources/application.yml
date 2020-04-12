@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: "development"
+service:
+  message:
+    text: "hello"
+    type: "simple"
+---
+spring:
+  profiles: "development"
+service:
+  message:
+    text: "hi"
+---
+spring:
+  profiles: "production"
+service:
+  message:
+    type: "advance"
+    text: "welcome"
