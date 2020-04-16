@@ -1,0 +1,1 @@
+spring.jackson.default-propertyinclusion: NON_NULL
